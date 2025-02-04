@@ -1,0 +1,82 @@
+body{
+    background-color: bisque;
+}
+
+h1{
+    color: 81689D;
+}
+
+header{
+    text-align: center;
+    padding-top:40px;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 40px 0 40 px 0;
+}
+
+img{
+    border-radius: 80px;
+    width: 80%;
+    border: 5px solid #A888B5;
+}
+
+img:hover {
+    transform: scale(.8);
+    transition: all .3s ease-in-out;
+}
+
+
+header button {
+    padding: 8px 20px;
+    background-color: #c1d90d;
+    border: none;
+    display: 0 auto; 
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+header button:hover {
+    background-color: cadetblue;
+    color:darkgray;
+    border-radius: 20px ;
+    transform: scale(.6);
+    transition: all .2s ease-in-out;
+}
+#products {
+    width: 95%;
+    text-align: center;
+    margin: 40px auto;
+}
+#products h2{
+    color: burlywood;
+}
+.cards{
+    border: 1px dashed palevioletred;
+    padding:30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.card{
+    width:350px;
+    border: 1px solid blue;
+}
+.card img{
+    border-radius: 0;
+    width: 100%;
+    border:none;
+}
+.card h3{
+    color:aquamarine;
+}
+.card a button{
+    margin-bottom:20px;
+    background-color:cadetblue;
+    padding:8px 25px;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color:darkgray;
+    color:black;
+}
